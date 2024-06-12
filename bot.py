@@ -1,8 +1,9 @@
 import discord
 from discord.ext import tasks
 
+name = "notAlyx"
 client = discord.Client(intents=discord.Intents.default())
-message = "Is it your birthday today, Alyx?"
+message = "Is it your birthday today, " + name + "?"
 
 # channel ID
 with open('id.txt', 'r') as file:
